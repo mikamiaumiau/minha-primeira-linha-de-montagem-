@@ -5,12 +5,9 @@ on:
     branches: [ main ]
 
 jobs:
-
-  build-e-teste:
+   build-e-teste:
     runs-on: ubuntu-latest
 
-    steps:
-  x
     steps:
       - name: 1. Pegar o chassi do carro (código-fonte)
         uses: actions/checkout@v3
